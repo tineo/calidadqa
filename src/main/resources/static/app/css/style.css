@@ -1,0 +1,164 @@
+.np {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+/*Header*/
+.headerEstilo{
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.navHeader {
+  list-style: none;
+}
+.navHeader ul{
+  text-decoration: none;
+  list-style: none;
+  float: left;
+}
+/*Link Login*/
+
+.primeraSeccionBack {
+  background-image: url('../images/fisiBack.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 900px;
+  width: 100%;
+  opacity: 1;
+}
+
+.colorFooter {
+  background-color: #00578f;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.espacioFooter p, .espacioFooter2 p {
+  color: white;
+  font-weight: 600;
+  font-size: 13px;
+  text-align: left;
+  margin: 0;
+}
+
+.tituloLogin{
+  background-color: white;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+.tituloLogin h1 {
+  color: #00578f;
+  font-weight: 600;
+}
+
+.subtituloLogin h2 {
+  color: white;
+  font-weight: 600;
+}
+
+.colorBackLogin {
+  background-color: rgba(46, 52, 123, 0.7);
+  border: 1px solid #00578f;
+  border-radius: 25px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  margin-top: 10%;
+}
+
+.estiloBtn{
+  padding: 10px 40px 10px 40px;
+  color: white;
+  background-color: #00578f;
+  font-size: 18px;
+  border-radius: 25px;
+  border: 1px solid #00578f;
+  outline:none;
+  font-weight: 600;
+}
+.inputEstilo{
+  border: 1px solid #00578f;
+  border-radius: 25px;
+  width: 100%;
+  padding: 5px 15px 5px 15px;
+  outline: none;
+  font-size: 14px;
+}
+.estiloError{
+  color: red;
+  font-size: 13px;
+  font-weight: 600;
+  text-align: center;
+  opacity: 0;
+  transition: 0.4s all;
+  margin: 0;
+}
+
+#textAlerta, .modal-title{
+  color: red;
+  font-size: 24px;
+  font-weight: 600;
+  text-align: center;
+}
+
+
+/*Link Inicio*/
+.table thead th{
+    border-bottom: none;
+}
+#disponibilidad tbody th{
+    width: 16%;
+}
+#disponibilidad tbody td{
+    width: 14%;
+    border: solid 1px #6d6d6d;
+    background-color: #cbd3ff;
+}
+#disponibilidad tbody td:hover{
+    cursor: pointer;
+    background-color: #7a7e99 !important;
+}
+
+#disponibilidad tbody td.selected{
+    background-color: #4c5064 !important;
+}
+#disponibilidad tbody td.asignado{
+    background-color: #6e8ec3;
+}
+#numHorasdispo{
+    font-size:23px;
+    font-weight:600;
+}
+#nomHoras{
+    width: 60px;
+    text-align: center;
+}
+.datosImprimir{
+  margin-bottom: 25px;
+}
+.estiloImprimir{
+  font-weight: 600;
+  font-size: 24px;
+  padding: 10px 40px 10px 40px;
+}
+@media (min-width:320px) {
+  .espacioFooter p, .espacioFooter2 p {
+    text-align: center;
+  }
+  .padLogin{
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+}
+
+@media (min-width:768px) {
+  .espacioFooter p {
+    text-align: left;
+  }
+  .espacioFooter2 p {
+    text-align: right;
+  }
+  .padLogin{
+    padding-left: 80px;
+    padding-right: 80px;
+  }
+}
